@@ -5,12 +5,12 @@ application up and running.
 
 * Local installation summary
 
-*Install Ruby on Rails
-*Clone or Download
-*git@github.com:rajankaushla/widget-search.git
-*Start Server rails s
-*SignUP
-*Search or Create Widget
+* Install Ruby on Rails
+* Clone or Download
+* git@github.com:rajankaushla/widget-search.git
+* Start Server rails s
+* SignUP
+* Search or Create Widget
 
 * Tools and Framewok
 
