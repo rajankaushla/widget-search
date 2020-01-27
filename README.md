@@ -19,8 +19,8 @@ Tools and Framewok
 
 GEMS 
 * Rest Client: A simple HTTP and REST client for Ruby
-* Devise: Application Authorization and Implement Login, Logout and SignUP Functionality
-* Bootstrap: For application Creativity 
+* Devise: Application Authorization and Implement Login/Logout and SignUP  Functionality
+* Bootstrap: For Application Creativity 
 
 Database 
 * SQlite3 database Default Database
