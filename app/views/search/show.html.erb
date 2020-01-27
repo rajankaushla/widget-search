@@ -1,0 +1,31 @@
+<center><h1><%= params['q'].capitalize %>:</h1></center>
+<% if @widget == nil %>
+<center><h3> This widget has not in list. </h3></center>
+<% else %>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Discrition</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td><%= @widget.name %></td>
+        <td><%= @widget.discription %></td>
+        <td><%= link_to 'create', widget_name_path(@widget, @name) %></td>
+        <td><%= link_to'Edit', edit_widget_name_path(@widget, @name) %></td>
+        <td><%= link_to'Destroy', widget_name_path(@widget, @name),method: :delete, data: { confirm:'Are you sure?'} %></td>
+      </tr>
+    </tbody>
+  <h1>Listing name for Widget 
+    <%= @widget.name %>
+    <%= @widget.discription %>
+  </h1> 
+</table>
+<% end %>
+
+<br>
+
+<center><%= link_to 'Back to widget', @widget %></center>

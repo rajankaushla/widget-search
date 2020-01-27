@@ -1,0 +1,7 @@
+<b><center><h1>Welcome To Showoff Widgets!</h1></center></b>
+<center><h3>Please the Widget</h3><center>
+<center><%= form_tag("/search", method: "post") do %><center>
+  <%= label_tag(:q, "") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
