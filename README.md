@@ -12,16 +12,16 @@ Local installation summary
 * SignUP
 * Search or Create Widget
 
-* Tools and Framewok
+Tools and Framewok
 
-Framework: Rails verison(Rails 6.0.2.1)
-Language:  Ruby  version(Rails 2.6.5)
+* Framework: Rails verison(Rails 6.0.2.1)
+* Language:  Ruby  version(Rails 2.6.5)
 
-* GEMS 
-Rest Client: A simple HTTP and REST client for Ruby
-Devise: Application Authorization and Implement Login, Logout and SignUP Functionality
-Bootstrap: For application Creativity 
+GEMS 
+* Rest Client: A simple HTTP and REST client for Ruby
+* Devise: Application Authorization and Implement Login, Logout and SignUP Functionality
+* Bootstrap: For application Creativity 
 
-* Database 
-SQlite3 database Default Database
+Database 
+* SQlite3 database Default Database
 
